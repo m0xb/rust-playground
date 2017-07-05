@@ -26,7 +26,7 @@ impl fmt::Display for List {
 }
 
 fn main() {
-	println!("1.2.2.1 Testcase: List");
+    println!("1.2.2.1 Testcase: List");
 
     let v = List(vec![1, 2, 3]);
     println!("{}", v);
